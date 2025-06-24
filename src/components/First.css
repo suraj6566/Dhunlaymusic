@@ -1,0 +1,20 @@
+.container {
+  padding: 20px;
+}
+
+.containermain {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.message-box {
+  margin-top: 20px;
+}
+
+.message-item {
+  margin-bottom: 15px;
+  background-color: #e3e3e3;
+  padding: 10px;
+  border-radius: 5px;
+}
