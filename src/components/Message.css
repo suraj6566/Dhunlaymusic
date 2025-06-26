@@ -1,0 +1,178 @@
+/* ✅ FINAL RESPONSIVE CSS FOR ALL DEVICES (IPHONE, TABLET, LAPTOP, TV) */
+
+.message-wrapper {
+  width: 90%;
+  max-width: 700px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 20px auto 0;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+}
+
+.message-wrapper img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.message-username {
+  font-size: 12px;
+  border: 1px solid white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.message-date-time {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.message-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.message-description {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.see-more-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.extra-message {
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto 0;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* ✅ MOBILE (IPHONE + OTHER) */
+@media (max-width: 480px) {
+  .message-wrapper,
+  .extra-message {
+    width: 100% !important;
+    padding: 10px !important;
+    margin: 15px auto;
+  }
+
+  .message-wrapper img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .message-username {
+    font-size: 10px;
+    padding: 1px 5px;
+  }
+
+  .message-date-time span {
+    font-size: 12px;
+  }
+
+  .message-title {
+    font-size: 14px;
+  }
+
+  .message-description {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .see-more-btn {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .extra-message {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+/* ✅ TABLET */
+@media (max-width: 768px) {
+  .message-wrapper {
+    width: 95%;
+  }
+
+  .message-wrapper img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .message-username {
+    font-size: 11px;
+  }
+
+  .message-date-time span {
+    font-size: 13px;
+  }
+
+  .see-more-btn {
+    font-size: 11px;
+  }
+}
+
+/* ✅ SMALL LAPTOP */
+@media (max-width: 1024px) {
+  .message-wrapper {
+    width: 95%;
+  }
+
+  .message-description,
+  .extra-message {
+    font-size: 14px;
+  }
+}
+
+/* ✅ DESKTOP */
+@media (max-width: 1200px) {
+  .message-wrapper {
+    width: 90%;
+  }
+}
+
+/* ✅ LARGE SCREENS / TV */
+@media (min-width: 1600px) {
+  .message-wrapper,
+  .extra-message {
+    width: 60%;
+  }
+}
