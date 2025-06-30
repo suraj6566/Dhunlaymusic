@@ -8,7 +8,7 @@ export default function MessageList() {
   const [openMessageId, setOpenMessageId] = useState(null);
 
   return (
-    <div style={{ backgroundColor: "#000", minHeight: "100vh", padding: "20px" }}>
+    <div style={{ backgroundColor: "#D6A2E8", minHeight: "100vh", padding: "20px" }}>
       {messages.map((item) => (
         <div key={item.id}>
           <div className="message-wrapper">
